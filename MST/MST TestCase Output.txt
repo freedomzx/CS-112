@@ -1,0 +1,85 @@
+xxxxxxxxxx  Starting on graph1.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A B 4)  (A H 8)
+Vertices: B  PQ:   (B A 4)  (B H 11)  (B C 8)
+Vertices: C  PQ:   (C I 2)  (C F 4)  (C D 7)  (C B 8)
+Vertices: D  PQ:   (D C 7)  (D F 14)  (D E 9)
+Vertices: E  PQ:   (E D 9)  (E F 10)
+Vertices: F  PQ:   (F G 2)  (F C 4)  (F D 14)  (F E 10)
+Vertices: G  PQ:   (G H 1)  (G I 6)  (G F 2)
+Vertices: H  PQ:   (H G 1)  (H I 7)  (H B 11)  (H A 8)
+Vertices: I  PQ:   (I C 2)  (I H 7)  (I G 6)
+
+------------------------------------------------------------
+	minEdges are -> [(A B 4), (C I 2), (D C 7), (E D 9), (F G 2), (H G 1), (B C 8), (F C 4)]
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on graph2.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A C 1)  (A D 3)  (A B 4)
+Vertices: B  PQ:   (B D 3)  (B C 5)  (B A 4)
+Vertices: C  PQ:   (C A 1)  (C E 2)  (C B 5)  (C D 4)
+Vertices: D  PQ:   (D E 1)  (D A 3)  (D B 3)  (D C 4)
+Vertices: E  PQ:   (E D 1)  (E C 2)
+
+------------------------------------------------------------
+	minEdges are -> [(A C 1), (B D 3), (E D 1), (C E 2)]
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on zeroNodes.txt  xxxxxxxxxxxxxxxx
+
+------------------------------------------------------------
+	minEdges are -> []
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on oneNode.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ: 
+
+------------------------------------------------------------
+	minEdges are -> []
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on twoNodes.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A B 2)
+Vertices: B  PQ:   (B A 2)
+
+------------------------------------------------------------
+	minEdges are -> [(A B 2)]
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on manyNodesfewEdges.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A B 2)
+Vertices: B  PQ:   (B A 2)  (B C 3)
+Vertices: C  PQ:   (C B 3)  (C D 4)
+Vertices: D  PQ:   (D C 4)
+
+------------------------------------------------------------
+	minEdges are -> [(A B 2), (C B 3), (D C 4)]
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on manyNodesmanyEdges.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A B 1)  (A B 2)  (A D 3)  (A C 3)  (A C 2)
+Vertices: B  PQ:   (B C 1)  (B A 1)  (B C 2)  (B D 3)  (B A 2)
+Vertices: C  PQ:   (C D 1)  (C B 1)  (C A 3)  (C B 2)  (C A 2)
+Vertices: D  PQ:   (D C 1)  (D B 3)  (D A 3)
+
+------------------------------------------------------------
+	minEdges are -> [(A B 1), (C D 1), (B C 1)]
+------------------------------------------------------------
+
+
+xxxxxxxxxx  Starting on skipC.txt  xxxxxxxxxxxxxxxx
+Vertices: A  PQ:   (A C 1)  (A B 5)  (A D 2)
+Vertices: B  PQ:   (B E 2)  (B D 3)  (B A 5)
+Vertices: C  PQ:   (C A 1)
+Vertices: D  PQ:   (D A 2)  (D E 4)  (D B 3)
+Vertices: E  PQ:   (E B 2)  (E F 15)  (E D 4)
+Vertices: F  PQ:   (F E 15)
+
+------------------------------------------------------------
+	minEdges are -> [(A C 1), (B E 2), (D A 2), (F E 15), (D B 3)]
+------------------------------------------------------------

@@ -1,0 +1,10 @@
+split array between spaces
+go through all of the tokens
+  for each token check if there's a letter
+    if there's a letter take note of where the letter is
+    after looking for a letter look for brackets
+    if you have both, then there's an array to be worked with
+      look for the name of the array then add it into arrays
+    if you only have letterPlace then its just a variable
+      add the variable in after looking for the name of the variables
+should be good? we are confused on how tokenizer actually works though
